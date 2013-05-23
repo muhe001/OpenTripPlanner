@@ -205,6 +205,7 @@ otp.planner.FormsOptionsManagerStatic = {
     isTransitOrBus : function(mode) {
         return mode.indexOf("TRANSIT")  !== -1 ||
                mode.indexOf("TRAINISH") !== -1 ||
+               mode.indexOf("SCHOOLBUS") !== -1 ||
                mode.indexOf("BUSISH")   !== -1;
     },
 

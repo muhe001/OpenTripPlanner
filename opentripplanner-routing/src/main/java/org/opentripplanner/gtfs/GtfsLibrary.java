@@ -98,6 +98,8 @@ public class GtfsLibrary {
 
     public static TraverseMode getTraverseMode(Route route) {
         switch (route.getType()) {
+        case -1:
+        	return TraverseMode.SCHOOLBUS;
         case 0:
             return TraverseMode.TRAM;
         case 1:

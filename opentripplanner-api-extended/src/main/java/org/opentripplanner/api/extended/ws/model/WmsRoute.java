@@ -51,6 +51,8 @@ public class WmsRoute {
 
     private String getMode(int type) {
         switch (type) {
+        case -1:
+        	return "SCHOOLBUS";
         case 0:
             return "TRAM";
         case 1:

@@ -22,6 +22,7 @@ otp.util.Modes =  {
     SUBWAY      : 'SUBWAY',
     RAIL        : 'RAIL', 
     BUS         : 'BUS', 
+    SCHOOLBUS   : 'SCHOOLBUS', 
     CABLE_CAR   : 'CABLE_CAR', 
     GONDOLA     : 'GONDOLA', 
     FERRY       : 'FERRY',
@@ -32,7 +33,7 @@ otp.util.Modes =  {
 
     getTransitModes : function()
     {
-        return [this.TRAM, this.SUBWAY, this.BUS, this.RAIL, this.GONDOLA, this.FERRY, this.CABLE_CAR, this.FUNICULAR, this.TRANSIT, this.TRAINISH, this.BUSISH];
+        return [this.TRAM, this.SUBWAY, this.BUS,this.SCHOOLBUS, this.RAIL, this.GONDOLA, this.FERRY, this.CABLE_CAR, this.FUNICULAR, this.TRANSIT, this.TRAINISH, this.BUSISH];
     },
 
     isTransit : function(mode)
@@ -54,7 +55,7 @@ otp.util.Modes =  {
 
     getBusModes : function()
     {
-        return [this.BUS, this.BUSISH];
+        return [this.BUS,this.SCHOOLBUS, this.BUSISH];
     },
 
     isBus : function(mode)

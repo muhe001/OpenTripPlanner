@@ -195,6 +195,7 @@ otp.locale.English = {
         SUBWAY:         "Subway",
         RAIL:           "Rail",
         BUS:            "Bus",
+        SCHOOLBUS: 		"School Bus",
         FERRY:          "Ferry",
         CABLE_CAR:      "Cable Car",
         GONDOLA:        "Gondola",
@@ -373,6 +374,7 @@ otp.locale.English = {
         [
             ['TRANSIT,WALK', 'Transit'],
             ['BUSISH,WALK', 'Bus only'],
+            ['SCHOOLBUS,WALK', 'School Bus only'],
             ['TRAINISH,WALK', 'Train only'],
             ['WALK', 'Walk only'],
             ['BICYCLE', 'Bicycle only'],
@@ -386,6 +388,7 @@ otp.locale.English = {
         [
             ['TRANSIT,WALK', 'Transit'],
             ['BUSISH,WALK', 'Bus only'],
+            ['SCHOOLBUS,WALK', 'School Bus only'],
             ['TRAINISH,WALK', 'Train only'],
             ['WALK', 'Walk only'],
             ['BICYCLE', 'Bicycle only'],
